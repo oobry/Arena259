@@ -1,4 +1,5 @@
 # Arena259
+The Arena should have a tournament style where 1v1 fights between each of programs until we have winner. However every program will get to battle each other so that we have a defentive winner on who won the most fights. This'll prevent juggernaut programs being picked off because they were unlucky with their first match.
 We can add random events to make certain abilities more or less effective. It doesn't have to be specifically events either, it could be an entire environment, or events tied to an environment that can be activated in a special way. 
 
 # Creature Base Class
