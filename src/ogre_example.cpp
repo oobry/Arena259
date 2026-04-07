@@ -12,7 +12,6 @@ class Ogre : public Creature {
         int special_ = 2;
         std::string name_;
         std::string primaryAttackName_;
-        std::string secondaryAttackName_;
         std::string specialAbilityName_;
 };
 
