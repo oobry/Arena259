@@ -131,12 +131,11 @@ bool Creature::attack(Creature& otherCreature) {
 	incDamageDealt(getDamage());
 	return true;
 }
+
 void Creature::takeDamage(Creature &otherCreature) {
 	if (getDamage() - otherCreature.getDefense() >= 0){
-		 otherCreature.setHealth(otherCreature.getHealth() - (getDamage() - otherCreature.getDefense()));
+		otherCreature.setHealth(otherCreature.getHealth() - (getDamage() - otherCreature.getDefense()));
 	}
-
-	otherCreature.setHealth(otherCreature.getHealth() - getDamage()); // set health to current health minus the creatures damage
 }
 
 
