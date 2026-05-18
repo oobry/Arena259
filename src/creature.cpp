@@ -33,6 +33,9 @@ Creature::Creature(std::string name, int health, int damage, int defense)
 	, defense(defense)
 	{ creatureCount++; }
 
+void Creature::specialMove(Creature& other) {
+	std::cout << name << " has no special move." << std::endl;
+}
 
 // Getters
 std::string Creature::getName() const {

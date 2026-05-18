@@ -13,6 +13,8 @@
 
 class Creature
 {
+protected:
+	virtual void specialMove(Creature& other);
 private:
 	static int creatureCount; // will be increased in the constructor
 	static const int MIN_HEALTH = 80; // ranges for valid health and damage
